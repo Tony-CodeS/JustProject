@@ -34,8 +34,17 @@ span{
 
 ul{
     list-style:lower-roman;
+    
+}
+.li{
+    
+font-weight: bold;
 }
 
 .indexUl{
     list-style: lower-alpha;
+}
+
+button a {
+    color: #fff;
 }
