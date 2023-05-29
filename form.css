@@ -2,6 +2,7 @@
     width: 80%;
     margin: auto;
     padding: 10px;
+    padding-bottom: 40px;
 
 }
 
@@ -48,5 +49,9 @@ button{
 .mainDiv{
     width: 40%;
     margin: auto;
+    background: #FFFF;
+}
+
+body{
     background: #F5F5F5;
 }
