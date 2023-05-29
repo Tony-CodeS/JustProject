@@ -1,0 +1,101 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="shortcut icon" href="./favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="form.css">
+    <link href="https://fonts.googleapis.com/css2?family=Halant:wght@300;400;500;600;700&family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="mainDiv">
+        <form class="formDiv">
+          <h1 class="heading"> Contact Form</h1>
+          <!--  -->
+        <div class="childDiv">
+        <label  class="label"> Name:</label>
+        <input type="text" required="true" placeholder="Enter your Name" class="input"/>
+        </div>
+          <!--  -->
+
+           <!--  -->
+        <div class="childDiv">
+        <label  class="label"> Username:</label>
+        <input type="text" required="true" placeholder="Enter your Username" class="input"/>
+        </div>
+              <!--  -->
+
+             <!--  -->
+        <div class="childDiv"> 
+        <label  class="label" > Password:</label>
+        <input type="password" required="true" placeholder="Enter your Password" class="input"/>
+        </div>
+         <!--  -->
+
+              <!--  -->
+        <div class="childDiv">
+        <label  class="label" > Re-type Password:</label>
+        <input type="password" required="true" placeholder="Enter your Password" class="input"/>
+        </div>
+        <!--  -->
+
+         <!--  -->
+         <div class="childDiv">
+        <label  class="label"> Gender:</label>
+       <div class="input">
+        <input type="radio" required="true" value="Male" name="gender"/>
+        <label class="radioLabel"> Male</label>
+        <input type="radio" required="true" value="Female" name="gender"/>
+        <label  class="radioLabel"> Female</label>
+       </div>
+        </div>
+              <!--  -->
+
+
+               <!--  -->
+        <div class="childDiv">
+        <label  class="label"> Techie Skills:</label>
+       <div class="input">
+        <input type="checkbox" required="true" value="html" name="html"/>
+        <label class="radioLabel"> HTML</label>
+        <input type="checkbox" required="true"  value="css" name="css"/>
+        <label class="radioLabel"> CSS</label>
+        <input type="checkbox" required="true"  value="javascript" name="javascript"/>
+        <label class="radioLabel"> Javascript</label>
+       </div>
+        </div>
+              <!--  -->
+
+
+               <!--  -->
+        <div class="childDiv">
+        <label  class="label"> Phone Number:</label>
+        <input type="tel" required="true" placeholder="Enter your Phonenumber" class="input"/>
+        </div>
+              <!--  -->
+
+        <div class="childDiv">
+        <label class="label"> Email:</label>
+        <input type="email" required="true" placeholder="Enter your Email address" class="input"/>
+        </div>
+                      <!--  -->
+
+        <div class="childDiv">
+        <label  class="label"> College:</label>
+      <div>
+        <select class="input">
+          <option value="" disabled selected>Select a College</option>
+          <option value="option1">Option 1</option>
+          <option value="option2">Option 2</option>
+          <option value="option3">Option 3</option>
+        </select>
+      </div>
+        </div>
+                            <!--  -->
+        <button value="submit"> Submit </button>
+        </form>
+    </div>
+</body>
+</html>
