@@ -1,5 +1,10 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 .formDiv{
-    width: 80%;
+    width: 90%;
     margin: auto;
     padding: 10px;
     padding-bottom: 40px;
@@ -10,20 +15,22 @@
     font-family: 'Halant';
 }
 
-/* form{
-    width: 50%;
-    background: orange;
-} */
+
 .childDiv{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    flex-wrap: wrap;
+    /* padding: 20px; */
+    margin-top: 30px;
 }
 
-.input{
-    width: 250px;
-    height: 30px;
+.formInput{
+    width: 50%;
+    height: 40px;
+    padding: 5px;
 }
+
+
 
 .label{
     font-family: "Halant";
@@ -36,22 +43,39 @@
     font-weight: 600;
 }
 
-button{
-    width: 250px;
+.container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+button {
+    width: 40%;
     height: 35px;
     background: #155EEF;
     border: none;
     color: white;
     font-family: 'Manrope';
-    margin-left: 200px;
+    margin-top: 20px;
 }
 
+
+
 .mainDiv{
-    width: 40%;
+    width:50%;
     margin: auto;
     background: #FFFF;
 }
 
 body{
     background: #F5F5F5;
+}
+
+@media screen and (max-width:1030px){
+    .formInput{
+        width: 40%;
+    }
+
+    .mainDiv{
+        width:70%;
+    }
 }
