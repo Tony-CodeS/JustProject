@@ -38,9 +38,11 @@
     font-weight: 600;
 }
 
+
 .radioLabel{
     font-family: 'Manrope';
     font-weight: 600;
+    margin-right:15px ;
 }
 
 .container {
@@ -49,7 +51,7 @@
 }
 
 button {
-    width: 40%;
+    width: 50%;
     height: 35px;
     background: #155EEF;
     border: none;
@@ -72,6 +74,10 @@ body{
 
 @media screen and (max-width:1030px){
     .formInput{
+        width: 40%;
+    }
+
+    button{
         width: 40%;
     }
 
